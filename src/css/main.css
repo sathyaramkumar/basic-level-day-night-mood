@@ -1,0 +1,55 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    transition-duration: 2s;
+}
+
+.mood-btn {
+    margin: 20px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+
+.form {
+    background-color: whitesmoke;
+    width: 290px;
+    padding: 20px 5px;
+    margin: 200px auto;
+    border-radius: 10px;
+}
+.form-email {
+    display: block;
+    padding: 10px 10px;
+    outline: none;
+    margin: 10px;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+}
+.form-password {
+    display: block;
+    padding: 10px 10px;
+    outline: none;
+    margin: 10px;
+    width: 250px;
+    border-radius: 6px;
+    border: 1px solid rgba(0, 0, 0, 0.384);
+}
+.form-btn {
+    padding: 10px 10px;
+    outline: none;
+    margin: 10px;
+    width: 250px;
+    border-radius: 6px;
+    border: none;
+    background-color: rgb(30, 161, 221);
+    color: white;
+}
