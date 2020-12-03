@@ -5,10 +5,50 @@
 }
 
 .main {
-    width: 100vw;
     height: 100vh;
     transition-duration: 2s;
 }
+
+.navbar {
+    text-align: center;
+    width: 1519px;
+}
+
+.navbar-btn-brand {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+}
+
+.navbar-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.navbar-brand {
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: none;
+    background-color: whitesmoke;
+}
+
+.nav-item {
+    padding: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+
 
 .mood-btn {
     margin: 20px;
@@ -16,6 +56,9 @@
     border: none;
     outline: none;
     border-radius: 5px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
 }
 
 .form {
@@ -52,4 +95,11 @@
     border: none;
     background-color: rgb(30, 161, 221);
     color: white;
+}
+
+.alert-text {
+    width: 180px;
+    margin: auto;
+    margin-top: -180px;
+    font-size: 17px;
 }
